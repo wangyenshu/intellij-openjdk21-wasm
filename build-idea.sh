@@ -7,7 +7,7 @@
 # Run it from the directory that contains emenv/ and javaenv/.
 set -euo pipefail
 
-IDEA_DIR=${1:-../intellij-cheerpj/intellij/intellij}   # extracted distribution (lib/, plugins/, bin/)
+IDEA_DIR=${1:-../intellij/intellij}   # extracted distribution (lib/, plugins/, bin/)
 OUT=${2:-out/intellij.html}
 IDEA_VFS=/files/intellij     # where it appears inside the virtual file system
 
