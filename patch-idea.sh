@@ -18,7 +18,7 @@
 #   JAVASSIST=/path/to/javassist.jar bash patch-idea.sh
 set -euo pipefail
 
-IDEA_DIR=$(cd "${1:-../intellij-cheerpj/intellij/intellij}" && pwd)
+IDEA_DIR=$(cd "${1:-../intellij/intellij}" && pwd)
 LIB="$IDEA_DIR/lib"
 JAR="$LIB/platform-impl.jar"
 BACKUP="$IDEA_DIR/../platform-impl.jar.orig"   # outside IDEA_DIR so it is not packed
