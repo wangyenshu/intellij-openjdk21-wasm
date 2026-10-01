@@ -2,7 +2,7 @@ Build Instructions:
 
 1. Download IntelliJ IDEA 2019.3.5 without JBR and extracted to the working directory.
 2. In the working directory, run `git clone -b openjdk https://github.com/wangyenshu/recipes.git`
-3. Place `build-idea.sh`,`patch-idea.sh`,`package-site.py`,`index.html` in `recipes/`
+3. Place `build-idea.sh`,`patch-idea.sh`,`package-site.py`,`index.html`,`coi-serviceworker.js` in `recipes/`
 4. Run `cd recipes`
 5. Run `pixi run -e rattler-build-env build-emscripten-wasm32-pkg recipes/recipes_emscripten/x11-wasm`
 6. Run `pixi run -e rattler-build-env build-emscripten-wasm32-pkg recipes/recipes_emscripten/openjdk21`
