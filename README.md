@@ -1,6 +1,6 @@
 Build Instructions:
 
-1. Download IntelliJ IDEA 2019.3.5 without JBR and extracted to the working directory
+1. Download IntelliJ IDEA 2019.3.5 without JBR and extracted to the working directory.
 2. In the working directory, run `git clone -b openjdk https://github.com/wangyenshu/recipes.git`
 3. Place `build-idea.sh`,`patch-idea.sh`,`package-site.py`,`index.html` in `recipes/`
 4. Run `cd recipes`
@@ -14,3 +14,5 @@ Build Instructions:
 12. Run `python3 package-site.py`
 
 The web assets will be in `site` directory.
+
+You may need to adjust the path of intellij in `patch-idea.sh` and `build-idea.sh`.
