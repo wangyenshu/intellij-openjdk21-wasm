@@ -16,3 +16,13 @@ Build Instructions:
 The web assets will be in `site` directory.
 
 You may need to adjust the path of intellij in `patch-idea.sh` and `build-idea.sh`.
+
+## Acknowledgements & Attribution
+
+This project is an unofficial browser-based port of [IntelliJ IDEA Community Edition](https://github.com/JetBrains/intellij-community) (version 2019), created for demonstration purposes.
+
+**Disclaimer:** This project is not affiliated with, maintained by, or endorsed by JetBrains s.r.o.
+
+* **Trademarks:** "IntelliJ", "IntelliJ IDEA", and "JetBrains" are registered trademarks of JetBrains s.r.o.
+* **Copyright:** The original IntelliJ IDEA Community Edition source code is Copyright © 2000–2019 JetBrains s.r.o. and contributors.
+* **License:** The original code is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
